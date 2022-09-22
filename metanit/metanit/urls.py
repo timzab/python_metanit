@@ -3,5 +3,6 @@ from hello import views
 # Примечание
 
 urlpatterns = [
-    path('', views.index, name='home'),
+    path("", views.index),
+    path("contacts/", views.contacts),
 ]

@@ -17,3 +17,5 @@ def contact(request):
 def index(request):
    # return HttpResponse("Hello METANIT.COM")
     return render(request, "index.html")
+def contacts(request):
+    return render(request, "contacts.html")
