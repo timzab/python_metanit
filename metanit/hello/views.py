@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 """
 def index(request):
@@ -15,4 +15,5 @@ def contact(request):
 
 
 def index(request):
-    return HttpResponse("Hello METANIT.COM")
+   # return HttpResponse("Hello METANIT.COM")
+    return render(request, "index.html")
